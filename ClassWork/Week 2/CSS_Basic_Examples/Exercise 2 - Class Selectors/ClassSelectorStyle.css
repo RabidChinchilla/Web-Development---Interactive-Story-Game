@@ -1,0 +1,19 @@
+.box {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.para {
+  color: green;
+  width: 200px;
+  border-style: dashed;
+  border-width: 3px;
+  border-color: orange;
+}
+
+.backgroundImage {
+  width: 150px;
+  height: 225px;
+  background-image: url(img/warlock.jpg);
+}

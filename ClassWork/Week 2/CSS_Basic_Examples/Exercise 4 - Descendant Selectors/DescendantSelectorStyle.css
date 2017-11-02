@@ -1,0 +1,15 @@
+p span {
+  background-color: red;
+  color: blue;
+  font-size: 50px;
+}
+
+ul li {
+  color: blue;
+  text-decoration: underline;
+}
+
+li a {
+  color: orange;
+  text-decoration: line-through;
+}

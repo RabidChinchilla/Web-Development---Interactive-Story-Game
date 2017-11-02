@@ -1,0 +1,19 @@
+p>span {
+  color: red;
+  font-family: cursive;
+}
+
+span>span {
+  color: blue;
+  font-size: 30px;
+}
+
+ul>li {
+  color: blue;
+  text-decoration: line-through;
+}
+
+li>a {
+  color: orange;
+  text-decoration: none;
+}
