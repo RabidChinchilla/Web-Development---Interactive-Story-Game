@@ -1,0 +1,25 @@
+#menu>li {
+  float:left;
+  position: relative;
+  background-color: #80b3ff;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#menu>li>ul {
+  display: none;
+  position: absolute;
+}
+
+#menu>li:hover ul{
+  display: block;
+}
+
+
+#menu>ul>li>a:hover  {
+  background-color: #3385ff;
+
+}
