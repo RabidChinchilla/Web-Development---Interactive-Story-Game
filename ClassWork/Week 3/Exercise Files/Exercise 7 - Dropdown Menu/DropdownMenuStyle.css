@@ -1,8 +1,21 @@
+#menu {
+  padding: 5px 30px;
+}
+
+li {
+  min-width: 200px;
+}
+
 #menu>li {
   float:left;
   position: relative;
   background-color: #80b3ff;
   text-align: center;
+  margin: 2px;
+}
+
+#menu>li:hover {
+  background-color: #3385ff
 }
 
 ul {
@@ -12,14 +25,15 @@ ul {
 #menu>li>ul {
   display: none;
   position: absolute;
+  padding: 0px;
 }
 
 #menu>li:hover ul{
   display: block;
+  background-color: #80b3ff;
 }
 
 
-#menu>ul>li>a:hover  {
+li:hover{
   background-color: #3385ff;
-
 }
