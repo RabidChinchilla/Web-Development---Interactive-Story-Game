@@ -1,0 +1,38 @@
+#container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#header {
+  background-color: grey;
+  margin-bottom: 10px;
+  width: 900px;
+  height: 70px;
+}
+
+#leftmenu {
+  margin-right: 10px;
+  float: left;
+  background-color: grey;
+  width: 295px;
+  height: 500px;
+}
+
+#maincontent {
+  margin-left: 305px;
+  background-color: grey;
+  width: 595px;
+  height: 500px;
+}
+
+#clear {
+  clear: both;
+}
+
+#footer {
+  float: left;
+  margin-top: 10px;
+  background-color: grey;
+  width: 900px;
+  height: 30px;
+}

@@ -1,0 +1,51 @@
+#container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#header {
+  text-align: center;
+  background-color: grey;
+  margin-bottom: 10px;
+  width: 900px;
+  height: 70px;
+}
+
+#leftmenu {
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+  background-color: grey;
+  height: 520px;
+  width: 245px;
+}
+
+#maincontent {
+  text-align: center;
+  float: left;
+  background-color: grey;
+  width: 390px;
+  height: 520px;
+}
+
+#rightmenu {
+  text-align: center;
+  float: right;
+  background-color: grey;
+  margin-left: 10px;
+  height: 520px;
+  width: 245px;
+}
+
+#clear {
+  clear: both;
+}
+
+#footer {
+  text-align: center;
+  float: left;
+  margin-top: 10px;
+  width: 900px;
+  height: 30px;
+  background-color: grey;
+}
