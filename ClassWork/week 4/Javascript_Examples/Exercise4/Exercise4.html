@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="Exercise4Javascript.js"></script>
+<title>Javascript Exercise 4</title>
+</head>
+
+<body>
+<form>
+	Player name: <input type="text" id="playername" />
+	<br />
+    Player colour:	<input type="color" id="playercolour"/>
+    <br />
+    Player health: <input type="number" id="playerhealth"/>
+    <br />
+    Player weapon: 
+    <select id="playerweapon">
+    	<option value="1">Crossbow of much hurting</option>
+        <option value="2">Broadsword of so slicing</option>
+        <option value="3">Wand of amaze magics</option>
+    </select>
+    <br />
+    <input type="submit" onclick="CreatePlayer();return false;" />
+</form>    
+<br />
+<br />
+<br />
+<br />
+<h2>Player details</h2>
+<h3 id="name">player name</h3>
+<div id="colour" style="width:50px;height:50px;background-color:#000;"></div>
+<h3 id="health">Player health</h3>
+<h3 id="weapon">Player weapon</h3>
+
+</body>
+</html>
