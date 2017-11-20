@@ -16,5 +16,7 @@ function OnLoad()
 
 function SelectWeapon()
 {
-
+	var s = document.forms[0]["weapons"].value;
+	//alert(weaponsArray[s]);
+	document.getElementById("currentWeapon").innerHTML = weaponsArray[s];
 }
