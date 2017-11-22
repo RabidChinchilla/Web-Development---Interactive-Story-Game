@@ -13,5 +13,5 @@ function OnLoad() {
 
 	document.getElementById("playername").innerHTML = name;
 	document.getElementById("playerhealth").innerHTML = health;
-	document.getElementById("playercolour").innerHTML = colour;
+	document.getElementById("playercolour").style.color = colour;
 }
