@@ -6,12 +6,7 @@ function StorePlayerData()
 	localStorage.setItem("playerColour",document.forms[0]["playercolour"].value);
 }
 
-function OnLoad() {
-	var name = localStorage.getItem("playerName");
-	var health = localStorage.getItem("playerHealth");
-	var colour = localStorage.getItem("playerColour");
+function OnLoad()
+{
 
-	document.getElementById("playername").innerHTML = name;
-	document.getElementById("playerhealth").innerHTML = health;
-	document.getElementById("playercolour").style.color = colour;
 }
