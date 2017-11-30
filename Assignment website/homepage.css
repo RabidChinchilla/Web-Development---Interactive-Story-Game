@@ -4,6 +4,12 @@ h1{
   font-size: 100px;
 }
 
+h2{
+  text-align: center;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 85px;
+}
+
 body{
   background-image: url("homepage.jpg");
   background-repeat: no-repeat;
