@@ -22,13 +22,19 @@ a{
 }
 
 #roomTitle{
-
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+  font-size: 70px;
 }
 
 #roomText{
-
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+  font-size: 70px;
 }
 
 #roomChoices{
-
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+  font-size: 70px;
 }
