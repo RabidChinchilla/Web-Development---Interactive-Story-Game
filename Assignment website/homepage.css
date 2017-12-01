@@ -2,14 +2,14 @@ h1{
   text-align: center;
   font-family: 'Aldrich', sans-serif;
   font-size: 100px;
-  color: Green;
+  color: #00cc44;
 }
 
 h2{
   text-align: center;
   font-family: 'Aldrich', sans-serif;
   font-size: 85px;
-  color: Green;
+  color: #00cc44;
 }
 
 body{
@@ -19,6 +19,10 @@ body{
 a{
   font-family: 'Aldrich', sans-serif;
   font-size: 70px;
+}
+
+input{
+  display: inline-block;
 }
 
 #roomTitle{
@@ -40,7 +44,9 @@ a{
 }
 
 .navbar{
-    background-color: #000033;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #000033;
 }
 
 .nav li a{
@@ -52,4 +58,5 @@ a{
 
 .navbar-brand{
   font-size: 70px!important;
+  color: White!important;
 }
