@@ -12,6 +12,11 @@ h2{
   color: #00cc44;
 }
 
+h3{
+  font-family: 'Aldrich', sans-serif;
+  font-size: 65px;
+}
+
 body{
   background-image: url("space.gif");
 }
@@ -59,4 +64,9 @@ input{
 .navbar-brand{
   font-size: 70px!important;
   color: White!important;
+}
+
+.well{
+  margin: 200px;
+  padding: 20px;
 }
