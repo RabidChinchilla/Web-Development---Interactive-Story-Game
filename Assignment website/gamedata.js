@@ -5,11 +5,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'Ignore him and keep walking',
-				index:1
+				index:2
 			},
 			{
 				text:'Walk over to him',
-				index:2
+				index:1
 			}
 		]
 	},
