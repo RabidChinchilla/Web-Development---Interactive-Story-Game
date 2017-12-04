@@ -4,7 +4,7 @@ function StorePlayerData()
   var playname = localStorage.getItem("playerName")
 }
 
-function OnLoad(){
+function NameLoad(){
   var playname = localStorage.getItem("playerName")
   document.getElementById("playname").innerHTML = playname;
 }
