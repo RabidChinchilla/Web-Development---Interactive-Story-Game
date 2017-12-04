@@ -1,6 +1,6 @@
 function StorePlayerData()
 {
-  localStorage.setItem("playername", document.forms[0]["playername"].value);
+  localStorage.setItem("playerName", document.forms[0]["playername"].value);
   var playname = localStorage.getItem("playerName")
 }
 
