@@ -123,4 +123,22 @@ var roomArray = [
 			}
 		]
 	},
+	{
+		title:'Basement',
+		text:'"Alright I'll do it." you say calmly. "I'm surprised...I thought I'd have to be more....persuasive." the mysterious woman said menacingly. "Here is Aaron Wardson's schedule, decide how to take care of it however you want."',
+		choices:[
+			{
+				text:'Accept',
+				index:9
+			},
+			{
+				text:'Ask why',
+				index:10
+			},
+			{
+				text:'refuse',
+				index:11
+			}
+		]
+	},
 ]
