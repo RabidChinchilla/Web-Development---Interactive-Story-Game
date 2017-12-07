@@ -128,12 +128,32 @@ var roomArray = [
 		text:'"Alright I will do it." you say calmly. "I thought I would have to be more....persuasive." the mysterious woman said menacingly. "Here is his schedule, decide how to take care of it however you want."',
 		choices:[
 			{
+				text:'Leave and plan your attack',
+				index:12
+			}
+		]
+	},
+	{
+		title:'Basement',
+		text:'"Why do you want him dead?" you ask hoping that you will get an answer. "Why does anyone do anything..." she responds "For more power. so will you do it or not?"',
+		choices:[
+			{
 				text:'Accept',
 				index:9
 			},
 			{
-				text:'Ask why',
-				index:10
+				text:'refuse',
+				index:11
+			}
+		]
+	},
+	{
+		title:'Basement',
+		text:'"No." you say defiantly and starting to walk towards the door. "Fine I will just have to be a bit more persuasive...Restrain him." the two robot bodyguards then spring into action and grab you and move you to the chair where they hold you in place.',
+		choices:[
+			{
+				text:'Accept',
+				index:9
 			},
 			{
 				text:'refuse',
