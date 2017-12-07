@@ -125,7 +125,7 @@ var roomArray = [
 	},
 	{
 		title:'Basement',
-		text:'"Alright I'll do it." you say calmly. "I'm surprised...I thought I'd have to be more....persuasive." the mysterious woman said menacingly. "Here is Aaron Wardson's schedule, decide how to take care of it however you want."',
+		text:'"Alright I will do it." you say calmly. "I thought I would have to be more....persuasive." the mysterious woman said menacingly. "Here is his schedule, decide how to take care of it however you want."',
 		choices:[
 			{
 				text:'Accept',
