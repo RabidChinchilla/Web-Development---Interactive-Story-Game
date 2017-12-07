@@ -19,7 +19,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Accept',
-				index:3
+				index:8
 			},
 			{
 				text:'Walk away',
@@ -33,7 +33,29 @@ var roomArray = [
 		choices:[
 			{
 				text:'Wake up',
+				index:3
+			}
+		]
+	}
+	{
+		title:'Basement',
+		text:'You wake up in rough looking basement type room with only one door, a small window letting some light in, a larger metal set of drawers and a chair.',
+		choices:[
+			{
+				text:'Investigate window',
 				index:4
+			}
+			{
+				text:'Investigate drawers',
+				index:5
+			}
+			{
+				text:'Investigate chair',
+				index:6
+			}
+			{
+				text:'Investigate door',
+				index:7
 			}
 		]
 	}
