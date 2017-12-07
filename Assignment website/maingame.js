@@ -12,7 +12,7 @@ function SelectRoom(roomIndex)
 
 	for(var i = 0; i < roomArray[roomIndex].choices.length; i++)
 	{
-		var options = "<button type='button' onClick='SelectRoom(" + roomArray[roomIndex]["choices"][i]["index"] + ")'>" + roomArray[roomIndex]["choices"][i]["text"] + "</button>";
+		var options = "<button type='button' onClick='SelectRoom(" + roomArray[roomIndex]["choices"][i]["index"] + ")'>" + roomArray[roomIndex]["choices"][i]["text"] + "</button>" + "<p>   </p>";
 		//square brackets specify each item down the list
 		document.getElementById("roomChoices").innerHTML += options;
 	}

@@ -36,7 +36,7 @@ var roomArray = [
 				index:3
 			}
 		]
-	}
+	},
 	{
 		title:'Basement',
 		text:'You wake up in rough looking basement type room with only one door, a small window letting some light in, a larger metal set of drawers and a chair.',
@@ -44,19 +44,22 @@ var roomArray = [
 			{
 				text:'Investigate window',
 				index:4
-			}
+			},
 			{
 				text:'Investigate drawers',
 				index:5
-			}
+			},
 			{
 				text:'Investigate chair',
 				index:6
-			}
+			},
 			{
 				text:'Investigate door',
 				index:7
 			}
 		]
 	}
+	{
+		
+	},
 ]
