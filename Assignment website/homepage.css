@@ -17,6 +17,11 @@ h3{
   font-size: 65px;
 }
 
+p{
+  font-family: 'Aldrich', sans-serif;
+  font-size: 45px;
+}
+
 body{
   background-image: url("space.gif");
 }
@@ -56,9 +61,9 @@ input{
 
 .nav li a{
   text-align: center!important;
-    font-family: 'Aldrich', sans-serif!important;
-    font-size: 50px!important;
-    color: white!important;
+  font-family: 'Aldrich', sans-serif!important;
+  font-size: 50px!important;
+  color: white!important;
 }
 
 .navbar-brand{
@@ -67,12 +72,15 @@ input{
 }
 
 .well{
-  margin: 200px;
+  margin-top: 200px;
+  margin-left: 900px;
+  margin-right: 900px;
+  margin-bottom: 200px;
   padding: 20px;
+  text-align: center;
 }
 
 .aboutMePic{
-  float: right;
   width: 200px;
   height: 200px;
 }
