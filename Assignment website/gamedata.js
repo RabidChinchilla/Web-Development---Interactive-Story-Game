@@ -1,7 +1,9 @@
+var playname = localStorage.getItem("playerName");
+
 var roomArray = [
 	{
 		title:'Street',
-		text:'After a long day of doing nothing but relax you start heading back to your hotel. As you walk with the hordes of people who all seem to be rushing to somewhere or other you notice someone gesturing to you from a nearby alleyway, as you make eye contact they start gesturing more frantically for you to come over.',
+		text: ' After a long day of doing nothing but relax you start heading back to your hotel. As you walk with the hordes of people who all seem to be rushing to somewhere or other you notice someone gesturing to you from a nearby alleyway, as you make eye contact they start gesturing more frantically for you to come over.',
 		choices:[
 			{
 				text:'Ignore him and keep walking',
@@ -56,10 +58,69 @@ var roomArray = [
 			{
 				text:'Investigate door',
 				index:7
+			},
+			{
+				text:'Finish looking around',
+				index:8
 			}
 		]
-	}
+	},
 	{
-		
+		title:'Basement',
+		text:'Looking out of the window you can see that you have gone from the nice area you were staying at to a extremely rough area of Lazdona and you start to wonder how long you were passed out.',
+		choices:[
+			{
+				text:'Look at something else',
+				index:3
+			}
+		]
+	},
+	{
+		title:'Basement',
+		text:"The drawers are unlocked so you open them and see that they contain all you would need to torture someone, the items range from rusty blades, hammers, garrote wire and other painful looking items. You weren't wearing anything that would allow you to hide any of them so you decide not to take any also it would help not to anger who ever wanted you here.",
+		choices:[
+			{
+				text:'Look at something else',
+				index:3
+			}
+		]
+	},
+	{
+		title:'Basement',
+		text:"The chair is a simple chair but it seems to have blood splatter on it...",
+		choices:[
+			{
+				text:'Look at something else',
+				index:3
+			}
+		]
+	},
+	{
+		title:'Basement',
+		text:"The door is solid metal and doesn't seem to have a handle on the side you're on.",
+		choices:[
+			{
+				text:'Look at something else',
+				index:3
+			}
+		]
+	},
+	{
+		title:'Basement',
+		text:'"After way too much waiting around the door opens and a well dressed woman with a shaved head and two heavily armed robot bodyguards enter the room. "Now ' + playname + ' lets get right down to business, I want you to kill Aaron Wardson, the current head of the Trini technology company."',
+		choices:[
+			{
+				text:'Accept',
+				index:9
+			},
+			{
+				text:'Ask why',
+				index:10
+			},
+			{
+				text:'refuse',
+				index:11
+			}
+		]
 	},
 ]
