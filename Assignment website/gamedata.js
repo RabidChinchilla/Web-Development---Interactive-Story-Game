@@ -452,12 +452,158 @@ var roomArray = [
 		text:"As you sit at your perch in the controls of the crane you see a bunch of rough looking men and women pull up in two cars and wait with weapons drawn, you can see that they favour laser pistols so it was wise that you decided not to engage. after about another hour you see a armoured van pull up and Diane exits the driver's seat followed by some human bodyguards this time, as she stops to start talking to her buyers you think about your next move.",
 		choices:[
 			{
-				text:'Head to blackmarket',
-				index:36
+				text:'Drop the container now',
+				index:40
 			},
 			{
-				text:'Wait for the deal to start',
-				index:39
+				text:'Wait a little longer',
+				index:45
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"As you drop the container you see Diane's two robot bodyguards exit the back of the van and with lighting fast speed they notice the falling container and start shooting at the controls. As you dive out of the controls and land on one of the highly stacked containers you see Diane get crushed by the container and start to make your escape, but much to your despair you hear sirens coming your way. You realise the sale was a setup and Diane would have been arrested anyway but you made your choice and it's now time to deal with the consequences.",
+		choices:[
+			{
+				text:'Run towards police',
+				index:40
+			},
+			{
+				text:'Dive into the water',
+				index:45
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"As you keep running you realise that the police have been shouting for you to stop but before you can they open fire and kill you.",
+		choices:[
+			{
+				text:'Die',
+				index:52
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"As you dive into the water to avoid the robots chasing you and the police ahead of you the police and robots don't engage the police which must mean that the police must think they're chasing you because it was the right thing to do and not for Diane's revenge from beyond the grave. Once underwater you need to make a choice, swim fast or try to dodge the shots coming from the police.",
+		choices:[
+			{
+				text:'Swim fast',
+				index:43
+			},
+			{
+				text:'Try to dodge',
+				index:44
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"Swimming fast was the best idea and you manage to escape the range of the police's weapons but as you climb back onto dry land you notice the police may have stopped firing but didn't lose you and had all their weapons focused on you.",
+		choices:[
+			{
+				text:'Surrender',
+				index:49
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"Dodging was not a good idea, there were way too many police officers there and you get shot almost to pieces and sadly die.",
+		choices:[
+			{
+				text:'Die',
+				index:52
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"After waiting just a little bit longer you see that Diane is joined by her robot bodyguards after getting out of the van.",
+		choices:[
+			{
+				text:'Drop the container',
+				index:46
+			},
+			{
+				text:"Don't drop the container yet",
+				index:47
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"The container drops crushing Diane and the robotic bodyguards but before you can react the people who were supposed to be buying the weapons put there fingers to their ears as if they were using earpieces and then you realise the entire thing was a setup and sirens start blaring from all around.",
+		choices:[
+			{
+				text:'try to escape',
+				index:46
+			},
+			{
+				text:"surrender",
+				index:47
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"Before you can drop the container the robotic bodyguards start scanning the area and notice you and start firing on you ferociously killing you.",
+		choices:[
+			{
+				text:'Die',
+				index:52
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"Running as fast as you can you manage see small unsecured boat that you quickly hop into and speed away towards the spaceport as you need to leave now or you will end up being killed or sent to jail.",
+		choices:[
+			{
+				text:'Escape',
+				index:51
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"You know that the laws on this planet are dictated by those in charge and most of them have good morals so you won't be killed if you give them the information you had on Diane. You decide that it would be best to surrender and explain to the police that what you were doing was for the greater good. Much to your despair they throw you in jail without a trial and make it very clear you won't be getting out for a very long time.",
+		choices:[
+			{
+				text:'Jail',
+				index:50
+			},
+		]
+	},
+	{
+		title:'Jail',
+		text:"Unfortunately you didn't get the quick death you wanted or to live your life free, instead you just rotted in prison",
+		choices:[
+			{
+				text:'Restart',
+				index:0
+			},
+		]
+	},
+	{
+		title:'Spaceport',
+		text:"you successfully manage to make it to the spaceport and get the last seat on the next flight to anywhere.",
+		choices:[
+			{
+				text:'Restart',
+				index:0
+			},
+		]
+	},
+	{
+		title:'Death',
+		text:"You died.",
+		choices:[
+			{
+				text:'Restart',
+				index:0
 			},
 		]
 	},
