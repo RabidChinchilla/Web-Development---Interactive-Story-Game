@@ -187,25 +187,277 @@ var roomArray = [
 		choices:[
 			{
 				text:'Proceed with the job',
-				index:19
+				index:16
 			},
 			{
 				text:'Research the mysterious woman',
+				index:15
+			},
+		]
+	},
+	{
+		title:'Hotel',
+		text:'You decide that is probably best if you know more about who you are working for so you head back to your hotel through the back alleys of Lazdona. Once you are back at your hotel you start scouring the net for any trace of her, after about an hour you find out that she is Diane Rezal, the ninth richest person on the planet. You wonder why her goal is power when there are eight people above her in the planets hierarchy.',
+		choices:[
+			{
+				text:'Proceed with the job',
+				index:16
+			},
+			{
+				text:'Dig Deeper',
+				index:17
+			},
+		]
+	},
+	{
+		title:'Hotel',
+		text:"After Diane Rezal's display of dominance and power you decide that you may as well go through with the assassination and then leave the planet as quickly as possible.",
+		choices:[
+			{
+				text:'Head to Aaron Wardson’s next location',
+				index:18
+			},
+		]
+	},
+	{
+		title:'Hotel',
+		text:'You get the feeling that there is more to Diane Rezal than is public so you reach out to a few old contacts you have to see if they know anything about her and one comes back with information that she has deep ties to the criminal underground and has earned most of her money and business through less than legal means.',
+		choices:[
+			{
+				text:'Try and betray her',
+				index:19
+			},
+			{
+				text:'Proceed with job',
 				index:16
 			},
 		]
 	},
 	{
-		title:'Basement/Hotel',
-		text:'As the mysterious woman leaves she leaves the door open for you to leave as well. After you wait for a few minutes to make sure she has gone you step outside into the street and head back your hotel to think about your next move',
+		title:'Hotel',
+		text:"You realise that you just can't go through with this, you realise that Aaron Wardson doesn't have any criminal ties and that he just knew where to invest his money and what companies to take over. You know it would be better for the planet if Diane Rezal didn't have any control over it.",
 		choices:[
 			{
-				text:'Proceed with the job',
-				index:19
+				text:'Head to her office',
+				index:31
 			},
 			{
-				text:'Research the mysterious woman',
-				index:16
+				text:'Ask where she will be from your contacts',
+				index:20
+			},
+		]
+	},
+	{
+		title:'Hotel',
+		text:"Your contact comes through for you again and tells you she will personally be overseeing a weapons deal at the docks that you could mess with and potentially take her out.",
+		choices:[
+			{
+				text:'Head there now and set a trap',
+				index:35
+			},
+			{
+				text:'Head to the black market to buy and gun to assault the deal',
+				index:32
+			},
+		]
+	},
+	{
+		title:'Dianes office',
+		text:'As you head to her office and step inside you realise you have made a grave mistake since her security consists entirely of the same robots you saw before and they immediately recognise you and grab you. After dragging you up to the roof a pre recorded message plays, "Seems you can not be trusted...oh well I can find someone else." and a few seconds after the message ends they throw you off the top of the skyscraper.',
+		choices:[
+			{
+				text:'Die',
+				index:52
+			},
+		]
+	},
+	{
+		title:'Aaron’s office',
+		text:"Through the information Diane gave you, you know that Aaron Wardson will be hosting an event at one of his nearby offices celebrating the anniversary of opening that office branch. Once you arrive there you realise that security is extremely tight but you could definitely sneak in but he also has a car ready at the back that you could sabotage.",
+		choices:[
+			{
+				text:'Sneak in',
+				index:22
+			},
+			{
+				text:'Set a trap',
+				index:24
+			},
+		]
+	},
+	{
+		title:'Aaron’s office',
+		text:"After sneaking in through one of the kitchen doors you start thinking about how to go about killing Aaron Wardson. You could walk straight up to him, kill him then run but that would be very messy or you could use the extremely conveniently placed and rare Calarian spice which in high doses could kill people to poison all the food but potentially kill way more people.",
+		choices:[
+			{
+				text:'poison',
+				index:23
+			},
+			{
+				text:'Approach Aaron',
+				index:26
+			},
+		]
+	},
+	{
+		title:'Aaron’s office',
+		text:"As you quietly approach the vehicle you see that is an old X-C4R which had a fatal flaw where if two simple wires were swapped around as soon as the car started the engine would explode.",
+		choices:[
+			{
+				text:'Sneak in',
+				index:23
+			},
+			{
+				text:'Swap wires',
+				index:26
+			},
+		]
+	},
+	{
+		title:'Aaron’s office',
+		text:"As you get under the X-C4R and swap the wires around you feel as if this is too easy and quickly move to a nearby alley to wait and see what happens. A few hours later Aaron Wardson leaves the event and enters his car which then starts to move away and your heart drops for a moment but then BOOM! the X-C4R explodes and prompts you to run to the nearest spaceport.",
+		choices:[
+			{
+				text:'Escape',
+				index:51
+			},
+		]
+	},
+	{
+		title:'Aaron’s office',
+		text:"At the right moment an hour later you throw as much Calarian spice into all the dishes as possible without making the food look bad. Not long after the food is taken out to the guests you start hearing screams and as you poke your head out of the door you realise that absolutely everyone had been eating the food and while you had succeeded at your mission you had killed a lot of innocent people and before you knew it the security had entered the kitchen to arrest everyone there.",
+		choices:[
+			{
+				text:'Surrender',
+				index:49
+			},
+			{
+				text:'Approach Aaron',
+				index:25
+			},
+		]
+	},
+	{
+		title:'Aaron’s office',
+		text:"As you approach him you start to realise that what you're doing is so wrong and start to have second thoughts.",
+		choices:[
+			{
+				text:'Back out',
+				index:27
+			},
+			{
+				text:'Keep going',
+				index:28
+			},
+		]
+	},
+	{
+		title:'Aaron’s office',
+		text:"You really can't do this so you rush out of the office and into a nearby back alley where you start to hyperventilate, but before you can get any rest once of Diane's robots approaches you almost knowingly and shoots you immediately.",
+		choices:[
+			{
+				text:'Die',
+				index:52
+			},
+		]
+	},
+	{
+		title:'Aaron’s office',
+		text:"It's do or die you think to yourself and in one swift movement get behind Aaron and snap his neck, in the moments of shock immediately after you run out of the building by going through the kitchen and out of the back door knowing that after killing a man in the middle of a crowded room there is no way you're getting out of this alive.",
+		choices:[
+			{
+				text:'Head to the spaceport',
+				index:29
+			},
+			{
+				text:'Head to Dianes office',
+				index:30
+			},
+		]
+	},
+	{
+		title:'Aaron’s office',
+		text:"Aaron's security was clearly top notch because once you get to the spaceport they are waiting for you and shoot on sight.",
+		choices:[
+			{
+				text:'Die',
+				index:52
+			},
+		]
+	},
+	{
+		title:'Aaron’s office',
+		text:"After a lot of running and hiding you can see Diane's office but much to your despair the Robot bodyguards immediately start shooting at you and attract the attention of Aaron's security teams who also start shooting at you. 'I'm fucked.' you think to yourself before getting shot to pieces.",
+		choices:[
+			{
+				text:'Die',
+				index:52
+			},
+		]
+	},
+	{
+		title:'Blackmarket',
+		text:"As you walk into the black market you feel a thousand suspicious eyes fix themselves on you as you approach the weapons vendor and ask him from the best gun he has, he gestures to a large looking laser rifle and immediately asks to be paid 500,000 credits.",
+		choices:[
+			{
+				text:'Pay him',
+				index:33
+			},
+			{
+				text:'Threaten him for it',
+				index:34
+			},
+		]
+	},
+	{
+		title:'Blackmarket',
+		text:"The second you show even a little bit of aggression to one of their own the entire market opens fire on you, killing you instantly.",
+		choices:[
+			{
+				text:'Die',
+				index:52
+			},
+		]
+	},
+	{
+		title:'Blackmarket/Docks',
+		text:"After paying him the money you take your gun and immediately head for the docks. When you arrive you see Diane talking with some other people with her robot bodyguards beside her.",
+		choices:[
+			{
+				text:'Just shoot her',
+				index:37
+			},
+			{
+				text:'Shoot everyone',
+				index:38
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"You head to the location at the docks that you contact gave you and realise that there is a crane moving shipping containers that you could use to drop one on Diane when she arrives to make the deal.",
+		choices:[
+			{
+				text:'Head to blackmarket',
+				index:36
+			},
+			{
+				text:'Wait for the deal to start',
+				index:39
+			},
+		]
+	},
+	{
+		title:'Docks',
+		text:"As you sit at your perch in the controls of the crane you see a bunch of rough looking men and women pull up in two cars and wait with weapons drawn, you can see that they favour laser pistols so it was wise that you decided not to engage. after about another hour you see a armoured van pull up and Diane exits the driver's seat followed by some human bodyguards this time, as she stops to start talking to her buyers you think about your next move.",
+		choices:[
+			{
+				text:'Head to blackmarket',
+				index:36
+			},
+			{
+				text:'Wait for the deal to start',
+				index:39
 			},
 		]
 	},
