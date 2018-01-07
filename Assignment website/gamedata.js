@@ -152,13 +152,61 @@ var roomArray = [
 		text:'"No." you say defiantly and starting to walk towards the door. "Fine I will just have to be a bit more persuasive...Restrain him." the two robot bodyguards then spring into action and grab you and move you to the chair where they hold you in place.',
 		choices:[
 			{
+				text:'Torture time',
+				index:12
+			},
+		]
+	},
+	{
+		title:'Basement',
+		text:'As the robots hold you in place the mysterious woman shows that she is not afraid to get her hands dirty and starts by hitting you with all her strength in the face and stomach which winds you and starts to make your vision go blurry.Then she grabs the hammer and starts swinging at your ribs trying to break them. "Now then...Want to give me a new answer?" she asks menacingly',
+		choices:[
+			{
 				text:'Accept',
 				index:9
 			},
 			{
-				text:'refuse',
-				index:11
-			}
+				text:'Refuse Again',
+				index:13
+			},
+		]
+	},
+	{
+		title:'Basement',
+		text:'"No..." you say weakly but still defiant. "Fine then...You brought this upon yourself" she says bringing the knife out of the set of drawers and in one quick movement slits your throat.',
+		choices:[
+			{
+				text:'Die',
+				index:52
+			},
+		]
+	},
+	{
+		title:'Basement/Hotel',
+		text:'As the mysterious woman leaves she leaves the door open for you to leave as well. After you wait for a few minutes to make sure she has gone you step outside into the street and head back your hotel to think about your next move',
+		choices:[
+			{
+				text:'Proceed with the job',
+				index:19
+			},
+			{
+				text:'Research the mysterious woman',
+				index:16
+			},
+		]
+	},
+	{
+		title:'Basement/Hotel',
+		text:'As the mysterious woman leaves she leaves the door open for you to leave as well. After you wait for a few minutes to make sure she has gone you step outside into the street and head back your hotel to think about your next move',
+		choices:[
+			{
+				text:'Proceed with the job',
+				index:19
+			},
+			{
+				text:'Research the mysterious woman',
+				index:16
+			},
 		]
 	},
 ]
