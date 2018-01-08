@@ -78,11 +78,10 @@ input{
 }
 
 .well{
-  margin-top: 200px;
-  margin-left: 900px;
-  margin-right: 900px;
-  margin-bottom: 200px;
-  padding: 20px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
   text-align: center;
 }
 

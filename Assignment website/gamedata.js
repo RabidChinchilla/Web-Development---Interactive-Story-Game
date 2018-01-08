@@ -23,7 +23,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Accept',
-				index:8
+				index:3
 			},
 			{
 				text:'Walk away',
