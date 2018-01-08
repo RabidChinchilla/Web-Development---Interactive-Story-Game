@@ -53,6 +53,12 @@ input{
   font-size: 70px;
 }
 
+#roomImage{
+  width:900px;
+  height:700px;
+  align-content: center;
+}
+
 .navbar{
   padding-top: 10px;
   padding-bottom: 10px;

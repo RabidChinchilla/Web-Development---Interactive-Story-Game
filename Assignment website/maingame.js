@@ -5,7 +5,7 @@ function OnLoad()
 
 function SelectRoom(roomIndex)
 {
-	document.getElementById("roomImage").innerHTML = roomArray[roomIndex].title;
+	document.getElementById("roomImage").src = roomArray[roomIndex].image;
 
 	document.getElementById("roomTitle").innerHTML = roomArray[roomIndex].title;
 	document.getElementById("roomText").innerHTML = roomArray[roomIndex].text;
