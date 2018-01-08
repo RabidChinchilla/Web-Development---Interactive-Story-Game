@@ -41,32 +41,42 @@ var roomArray = [
 	},
 	{
 		title:'Basement', ///3
-		text:'You wake up in rough looking basement type room with only one door, a small window letting some light in, a larger metal set of drawers and a chair.',
+		text:'"Sure." you respond bluntly. "Follow me then." the strange man says and leads you to a car which takes you out of the nice area you were in before and to a rough looking area about an hour away. After the journey he leads you to a strange looking building and gestures to the door which leads to the basement.',
 		choices:[
 			{
-				text:'Investigate window',
-				index:4
-			},
-			{
-				text:'Investigate drawers',
-				index:5
-			},
-			{
-				text:'Investigate chair',
-				index:6
-			},
-			{
-				text:'Investigate door',
-				index:7
-			},
-			{
-				text:'Finish looking around',
-				index:8
+				text:'Follow Him',
+				index:9
 			}
 		]
 	},
 	{
 		title:'Basement', ///4
+		text:'You wake up in rough looking basement type room with only one door, a small window letting some light in, a larger metal set of drawers and a chair.',
+		choices:[
+			{
+				text:'Investigate window',
+				index:5
+			},
+			{
+				text:'Investigate drawers',
+				index:6
+			},
+			{
+				text:'Investigate chair',
+				index:7
+			},
+			{
+				text:'Investigate door',
+				index:8
+			},
+			{
+				text:'Finish looking around',
+				index:9
+			}
+		]
+	},
+	{
+		title:'Basement', ///5
 		text:'Looking out of the window you can see that you have gone from the nice area you were staying at to a extremely rough area of Lazdona and you start to wonder how long you were passed out.',
 		choices:[
 			{
@@ -76,7 +86,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Basement', ///5
+		title:'Basement', ///6
 		text:"The drawers are unlocked so you open them and see that they contain all you would need to torture someone, the items range from rusty blades, hammers, garrote wire and other painful looking items. You weren't wearing anything that would allow you to hide any of them so you decide not to take any also it would help not to anger who ever wanted you here.",
 		choices:[
 			{
@@ -86,7 +96,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Basement', ///6
+		title:'Basement', ///7
 		text:"The chair is a simple chair but it seems to have blood splatter on it...",
 		choices:[
 			{
@@ -96,7 +106,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Basement', ///7
+		title:'Basement', ///8
 		text:"The door is solid metal and doesn't seem to have a handle on the side you're on.",
 		choices:[
 			{
@@ -106,7 +116,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Basement', ///8
+		title:'Basement', ///9
 		text:'"After way too much waiting around the door opens and a well dressed woman with a shaved head and two heavily armed robot bodyguards enter the room. "Now ' + playname + ' lets get right down to business, I want you to kill Aaron Wardson, the current head of the Trini technology company."',
 		choices:[
 			{
@@ -124,7 +134,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Basement', ///9
+		title:'Basement', ///10
 		text:'"Alright I will do it." you say calmly. "I thought I would have to be more....persuasive." the mysterious woman said menacingly. "Here is his schedule, decide how to take care of it however you want."',
 		choices:[
 			{
@@ -134,7 +144,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Basement', ///10
+		title:'Basement', ///11
 		text:'"Why do you want him dead?" you ask hoping that you will get an answer. "Why does anyone do anything..." she responds "For more power. so will you do it or not?"',
 		choices:[
 			{
@@ -148,7 +158,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Basement', ///11
+		title:'Basement', ///12
 		text:'"No." you say defiantly and starting to walk towards the door. "Fine I will just have to be a bit more persuasive...Restrain him." the two robot bodyguards then spring into action and grab you and move you to the chair where they hold you in place.',
 		choices:[
 			{
@@ -158,7 +168,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Basement', ///12
+		title:'Basement', ///13
 		text:'As the robots hold you in place the mysterious woman shows that she is not afraid to get her hands dirty and starts by hitting you with all her strength in the face and stomach which winds you and starts to make your vision go blurry.Then she grabs the hammer and starts swinging at your ribs trying to break them. "Now then...Want to give me a new answer?" she asks menacingly',
 		choices:[
 			{
@@ -172,7 +182,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Basement', ///13
+		title:'Basement', ///14
 		text:'"No..." you say weakly but still defiant. "Fine then...You brought this upon yourself" she says bringing the knife out of the set of drawers and in one quick movement slits your throat.',
 		choices:[
 			{
@@ -182,7 +192,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Basement/Hotel', ///14
+		title:'Basement/Hotel', ///15
 		text:'As the mysterious woman leaves she leaves the door open for you to leave as well. After you wait for a few minutes to make sure she has gone you step outside into the street and head back your hotel to think about your next move',
 		choices:[
 			{
@@ -196,7 +206,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Hotel', ///15
+		title:'Hotel', ///16
 		text:'You decide that is probably best if you know more about who you are working for so you head back to your hotel through the back alleys of Lazdona. Once you are back at your hotel you start scouring the net for any trace of her, after about an hour you find out that she is Diane Rezal, the ninth richest person on the planet. You wonder why her goal is power when there are eight people above her in the planets hierarchy.',
 		choices:[
 			{
@@ -210,7 +220,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Hotel', ///16
+		title:'Hotel', ///17
 		text:"After Diane Rezal's display of dominance and power you decide that you may as well go through with the assassination and then leave the planet as quickly as possible.",
 		choices:[
 			{
@@ -220,7 +230,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Hotel', ///17
+		title:'Hotel', ///18
 		text:'You get the feeling that there is more to Diane Rezal than is public so you reach out to a few old contacts you have to see if they know anything about her and one comes back with information that she has deep ties to the criminal underground and has earned most of her money and business through less than legal means.',
 		choices:[
 			{
@@ -234,7 +244,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Hotel', ///18
+		title:'Hotel', ///19
 		text:"You realise that you just can't go through with this, you realise that Aaron Wardson doesn't have any criminal ties and that he just knew where to invest his money and what companies to take over. You know it would be better for the planet if Diane Rezal didn't have any control over it.",
 		choices:[
 			{
@@ -248,7 +258,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Hotel', ///19
+		title:'Hotel', ///20
 		text:"Your contact comes through for you again and tells you she will personally be overseeing a weapons deal at the docks that you could mess with and potentially take her out.",
 		choices:[
 			{
