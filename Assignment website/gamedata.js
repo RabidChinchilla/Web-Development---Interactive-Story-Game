@@ -81,7 +81,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Look at something else',
-				index:3
+				index:4
 			}
 		]
 	},
@@ -91,7 +91,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Look at something else',
-				index:3
+				index:4
 			}
 		]
 	},
@@ -101,7 +101,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Look at something else',
-				index:3
+				index:4
 			}
 		]
 	},
@@ -111,7 +111,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Look at something else',
-				index:3
+				index:4
 			}
 		]
 	},
@@ -121,15 +121,15 @@ var roomArray = [
 		choices:[
 			{
 				text:'Accept',
-				index:9
-			},
-			{
-				text:'Ask why',
 				index:10
 			},
 			{
-				text:'refuse',
+				text:'Ask why',
 				index:11
+			},
+			{
+				text:'refuse',
+				index:12
 			}
 		]
 	},
@@ -139,7 +139,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Leave and plan your attack',
-				index:12
+				index:15
 			}
 		]
 	},
@@ -149,11 +149,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'Accept',
-				index:9
+				index:10
 			},
 			{
 				text:'refuse',
-				index:11
+				index:12
 			}
 		]
 	},
@@ -163,7 +163,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Torture time',
-				index:12
+				index:13
 			},
 		]
 	},
@@ -173,11 +173,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'Accept',
-				index:9
+				index:10
 			},
 			{
 				text:'Refuse Again',
-				index:13
+				index:14
 			},
 		]
 	},
@@ -187,7 +187,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Die',
-				index:49
+				index:51
 			},
 		]
 	},
@@ -197,11 +197,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'Proceed with the job',
-				index:16
+				index:17
 			},
 			{
 				text:'Research the mysterious woman',
-				index:15
+				index:16
 			},
 		]
 	},
@@ -211,11 +211,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'Proceed with the job',
-				index:16
+				index:17
 			},
 			{
 				text:'Dig Deeper',
-				index:17
+				index:18
 			},
 		]
 	},
@@ -225,7 +225,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Head to Aaron Wardson’s next location',
-				index:18
+				index:22
 			},
 		]
 	},
@@ -239,7 +239,7 @@ var roomArray = [
 			},
 			{
 				text:'Proceed with job',
-				index:16
+				index:17
 			},
 		]
 	},
@@ -249,7 +249,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Head to her office',
-				index:31
+				index:21
 			},
 			{
 				text:'Ask where she will be from your contacts',
@@ -263,7 +263,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Head there now and set a trap',
-				index:35
+				index:37
 			},
 			{
 				text:'Head to the black market to buy and gun to assault the deal',
@@ -277,7 +277,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Die',
-				index:49
+				index:51
 			},
 		]
 	},
@@ -287,7 +287,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Sneak in',
-				index:22
+				index:23
 			},
 			{
 				text:'Set a trap',
@@ -301,11 +301,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'poison',
-				index:23
+				index:26
 			},
 			{
 				text:'Approach Aaron',
-				index:26
+				index:27
 			},
 		]
 	},
@@ -319,7 +319,7 @@ var roomArray = [
 			},
 			{
 				text:'Swap wires',
-				index:26
+				index:25
 			},
 		]
 	},
@@ -329,7 +329,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Escape',
-				index:51
+				index:50
 			},
 		]
 	},
@@ -339,11 +339,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'Surrender',
-				index:49
+				index:46
 			},
 			{
 				text:'Approach Aaron',
-				index:25
+				index:27
 			},
 		]
 	},
@@ -353,11 +353,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'Back out',
-				index:27
+				index:28
 			},
 			{
 				text:'Keep going',
-				index:28
+				index:29
 			},
 		]
 	},
@@ -367,7 +367,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Die',
-				index:49
+				index:51
 			},
 		]
 	},
@@ -377,11 +377,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'Head to the spaceport',
-				index:29
+				index:30
 			},
 			{
 				text:'Head to Dianes office',
-				index:30
+				index:31
 			},
 		]
 	},
@@ -391,7 +391,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Die',
-				index:49
+				index:51
 			},
 		]
 	},
@@ -401,7 +401,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Die',
-				index:49
+				index:51
 			},
 		]
 	},
@@ -411,11 +411,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'Pay him',
-				index:33
+				index:34
 			},
 			{
 				text:'Threaten him for it',
-				index:34
+				index:33
 			},
 		]
 	},
@@ -425,7 +425,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Die',
-				index:49
+				index:51
 			},
 		]
 	},
@@ -435,44 +435,72 @@ var roomArray = [
 		choices:[
 			{
 				text:'Just shoot her',
-				index:37
+				index:35
 			},
 			{
 				text:'Shoot everyone',
-				index:38
+				index:36
 			},
 		]
 	},
 	{
 		title:'Docks', ///35
-		text:"You head to the location at the docks that you contact gave you and realise that there is a crane moving shipping containers that you could use to drop one on Diane when she arrives to make the deal.",
+		text:"As you shoot diane her robot bodyguards immediately turn on you and start firing as sirens start up from all around you as you start to run and realise that the police are here.",
 		choices:[
 			{
-				text:'Head to blackmarket',
-				index:36
+				text:'Run towards police',
+				index:40
 			},
 			{
-				text:'Wait for the deal to start',
-				index:39
+				text:'Dive into the water',
+				index:41
 			},
 		]
 	},
 	{
 		title:'Docks', ///36
-		text:"As you sit at your perch in the controls of the crane you see a bunch of rough looking men and women pull up in two cars and wait with weapons drawn, you can see that they favour laser pistols so it was wise that you decided not to engage. after about another hour you see a armoured van pull up and Diane exits the driver's seat followed by some human bodyguards this time, as she stops to start talking to her buyers you think about your next move.",
+		text:"After everyone is dead you hear sirens.",
 		choices:[
 			{
-				text:'Drop the container now',
-				index:40
+				text:'try to escape',
+				index:37
 			},
 			{
-				text:'Wait a little longer',
-				index:45
+				text:'surrender',
+				index:38
 			},
 		]
 	},
 	{
 		title:'Docks', ///37
+		text:"You head to the location at the docks that you contact gave you and realise that there is a crane moving shipping containers that you could use to drop one on Diane when she arrives to make the deal.",
+		choices:[
+			{
+				text:'Head to blackmarket',
+				index:32
+			},
+			{
+				text:'Wait for the deal to start',
+				index:38
+			},
+		]
+	},
+	{
+		title:'Docks', ///38
+		text:"As you sit at your perch in the controls of the crane you see a bunch of rough looking men and women pull up in two cars and wait with weapons drawn, you can see that they favour laser pistols so it was wise that you decided not to engage. after about another hour you see a armoured van pull up and Diane exits the driver's seat followed by some human bodyguards this time, as she stops to start talking to her buyers you think about your next move.",
+		choices:[
+			{
+				text:'Drop the container now',
+				index:39
+			},
+			{
+				text:'Wait a little longer',
+				index:44
+			},
+		]
+	},
+	{
+		title:'Docks', ///39
 		text:"As you drop the container you see Diane's two robot bodyguards exit the back of the van and with lighting fast speed they notice the falling container and start shooting at the controls. As you dive out of the controls and land on one of the highly stacked containers you see Diane get crushed by the container and start to make your escape, but much to your despair you hear sirens coming your way. You realise the sale was a setup and Diane would have been arrested anyway but you made your choice and it's now time to deal with the consequences.",
 		choices:[
 			{
@@ -481,114 +509,114 @@ var roomArray = [
 			},
 			{
 				text:'Dive into the water',
-				index:45
-			},
-		]
-	},
-	{
-		title:'Docks', ///38
-		text:"As you keep running you realise that the police have been shouting for you to stop but before you can they open fire and kill you.",
-		choices:[
-			{
-				text:'Die',
-				index:49
-			},
-		]
-	},
-	{
-		title:'Docks', ///39
-		text:"As you dive into the water to avoid the robots chasing you and the police ahead of you the police and robots don't engage the police which must mean that the police must think they're chasing you because it was the right thing to do and not for Diane's revenge from beyond the grave. Once underwater you need to make a choice, swim fast or try to dodge the shots coming from the police.",
-		choices:[
-			{
-				text:'Swim fast',
-				index:43
-			},
-			{
-				text:'Try to dodge',
-				index:44
+				index:41
 			},
 		]
 	},
 	{
 		title:'Docks', ///40
-		text:"Swimming fast was the best idea and you manage to escape the range of the police's weapons but as you climb back onto dry land you notice the police may have stopped firing but didn't lose you and had all their weapons focused on you.",
-		choices:[
-			{
-				text:'Surrender',
-				index:49
-			},
-		]
-	},
-	{
-		title:'Docks', ///41
-		text:"Dodging was not a good idea, there were way too many police officers there and you get shot almost to pieces and sadly die.",
+		text:"As you keep running you realise that the police have been shouting for you to stop but before you can they open fire and kill you.",
 		choices:[
 			{
 				text:'Die',
-				index:49
-			},
-		]
-	},
-	{
-		title:'Docks', ///42
-		text:"After waiting just a little bit longer you see that Diane is joined by her robot bodyguards after getting out of the van.",
-		choices:[
-			{
-				text:'Drop the container',
-				index:46
-			},
-			{
-				text:"Don't drop the container yet",
-				index:47
-			},
-		]
-	},
-	{
-		title:'Docks', ///43
-		text:"The container drops crushing Diane and the robotic bodyguards but before you can react the people who were supposed to be buying the weapons put there fingers to their ears as if they were using earpieces and then you realise the entire thing was a setup and sirens start blaring from all around.",
-		choices:[
-			{
-				text:'try to escape',
-				index:46
-			},
-			{
-				text:"surrender",
-				index:47
-			},
-		]
-	},
-	{
-		title:'Docks', ///44
-		text:"Before you can drop the container the robotic bodyguards start scanning the area and notice you and start firing on you ferociously killing you.",
-		choices:[
-			{
-				text:'Die',
-				index:49
-			},
-		]
-	},
-	{
-		title:'Docks', ///45
-		text:"Running as fast as you can you manage see small unsecured boat that you quickly hop into and speed away towards the spaceport as you need to leave now or you will end up being killed or sent to jail.",
-		choices:[
-			{
-				text:'Escape',
 				index:51
 			},
 		]
 	},
 	{
-		title:'Docks', ///46
-		text:"You know that the laws on this planet are dictated by those in charge and most of them have good morals so you won't be killed if you give them the information you had on Diane. You decide that it would be best to surrender and explain to the police that what you were doing was for the greater good. Much to your despair they throw you in jail without a trial and make it very clear you won't be getting out for a very long time.",
+		title:'Docks', ///41
+		text:"As you dive into the water to avoid the robots chasing you and the police ahead of you the police and robots don't engage the police which must mean that the police must think they're chasing you because it was the right thing to do and not for Diane's revenge from beyond the grave. Once underwater you need to make a choice, swim fast or try to dodge the shots coming from the police.",
 		choices:[
 			{
-				text:'Jail',
-				index:47
+				text:'Swim fast',
+				index:42
+			},
+			{
+				text:'Try to dodge',
+				index:43
 			},
 		]
 	},
 	{
-		title:'Jail', ///47
+		title:'Docks', ///42
+		text:"Swimming fast was the best idea and you manage to escape the range of the police's weapons but as you climb back onto dry land you notice the police may have stopped firing but didn't lose you and had all their weapons focused on you.",
+		choices:[
+			{
+				text:'Surrender',
+				index:48
+			},
+		]
+	},
+	{
+		title:'Docks', ///43
+		text:"Dodging was not a good idea, there were way too many police officers there and you get shot almost to pieces and sadly die.",
+		choices:[
+			{
+				text:'Die',
+				index:51
+			},
+		]
+	},
+	{
+		title:'Docks', ///44
+		text:"After waiting just a little bit longer you see that Diane is joined by her robot bodyguards after getting out of the van.",
+		choices:[
+			{
+				text:'Drop the container',
+				index:45
+			},
+			{
+				text:"Don't drop the container yet",
+				index:46
+			},
+		]
+	},
+	{
+		title:'Docks', ///45
+		text:"The container drops crushing Diane and the robotic bodyguards but before you can react the people who were supposed to be buying the weapons put there fingers to their ears as if they were using earpieces and then you realise the entire thing was a setup and sirens start blaring from all around.",
+		choices:[
+			{
+				text:'try to escape',
+				index:47
+			},
+			{
+				text:"surrender",
+				index:48
+			},
+		]
+	},
+	{
+		title:'Docks', ///46
+		text:"Before you can drop the container the robotic bodyguards start scanning the area and notice you and start firing on you ferociously killing you.",
+		choices:[
+			{
+				text:'Die',
+				index:51
+			},
+		]
+	},
+	{
+		title:'Docks', ///47
+		text:"Running as fast as you can you manage see small unsecured boat that you quickly hop into and speed away towards the spaceport as you need to leave now or you will end up being killed or sent to jail.",
+		choices:[
+			{
+				text:'Escape',
+				index:50
+			},
+		]
+	},
+	{
+		title:'Surrender', ///48
+		text:"You know that the laws on this planet are dictated by those in charge and most of them have good morals so you won't be killed if you give them the information you had on Diane. You decide that it would be best to surrender and explain to the police that what you were doing was for the greater good. Much to your despair they throw you in jail without a trial and make it very clear you won't be getting out for a very long time.",
+		choices:[
+			{
+				text:'Jail',
+				index:49
+			},
+		]
+	},
+	{
+		title:'Jail', ///49
 		text:"Unfortunately you didn't get the quick death you wanted or to live your life free, instead you just rotted in prison",
 		choices:[
 			{
@@ -598,7 +626,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Spaceport', ///48
+		title:'Spaceport', ///50
 		text:"you successfully manage to make it to the spaceport and get the last seat on the next flight to anywhere.",
 		choices:[
 			{
@@ -608,7 +636,7 @@ var roomArray = [
 		]
 	},
 	{
-		title:'Death', ///49
+		title:'Death', ///51
 		text:"You died.",
 		choices:[
 			{
