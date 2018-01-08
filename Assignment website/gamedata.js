@@ -2,6 +2,7 @@ var playname = localStorage.getItem("playerName");
 
 var roomArray = [
 	{
+		image:src="MainStreet.jpg"
 		title:'Street', ///0
 		text: ' After a long day of doing nothing but relax you start heading back to your hotel. As you walk with the hordes of people who all seem to be rushing to somewhere or other you notice someone gesturing to you from a nearby alleyway, as you make eye contact they start gesturing more frantically for you to come over.',
 		choices:[
@@ -12,10 +13,11 @@ var roomArray = [
 			{
 				text:'Walk over to him',
 				index:1
-			}
+			},
 		]
 	},
 	{
+		image:src="Alley.jpg"
 		title:'Alleyway', ///1
 		text:"As you start walking towards the man he looks a lot more relaxed. As soon as you're within earshot he starts talking, \"Thank you so much for not ignoring me, I have a message for you...\" he then pauses suddenly as if the weight of the world rests on what he says next, \"My boss wants to meet you and offer you a job...I don't know the details so don't bother asking and just follow me.\"",
 		choices:[
@@ -26,17 +28,18 @@ var roomArray = [
 			{
 				text:'Walk away',
 				index:2
-			}
+			},
 		]
 	},
 	{
+		image:src="MainStreet.jpg"
 		title:'Street', ///2
 		text:'You remember the last time you tried to help someone as crazy looking as him and that ended with three dead clowns, a horde of genetically modified cats and you getting chased off a planet so you decide to keep walking. As you turn and keep walking you notice out of the corner of your eye the man using his his phone. As you approach your hotel two shady looking men grab you and give you an injection which makes you feel extremely tired and slowly pass out.',
 		choices:[
 			{
 				text:'Wake up',
 				index:3
-			}
+			},
 		]
 	},
 	{
@@ -46,7 +49,7 @@ var roomArray = [
 			{
 				text:'Follow Him',
 				index:9
-			}
+			},
 		]
 	},
 	{
@@ -72,7 +75,7 @@ var roomArray = [
 			{
 				text:'Finish looking around',
 				index:9
-			}
+			},
 		]
 	},
 	{
@@ -82,7 +85,7 @@ var roomArray = [
 			{
 				text:'Look at something else',
 				index:4
-			}
+			},
 		]
 	},
 	{
@@ -92,7 +95,7 @@ var roomArray = [
 			{
 				text:'Look at something else',
 				index:4
-			}
+			},
 		]
 	},
 	{
@@ -102,7 +105,7 @@ var roomArray = [
 			{
 				text:'Look at something else',
 				index:4
-			}
+			},
 		]
 	},
 	{
@@ -112,7 +115,7 @@ var roomArray = [
 			{
 				text:'Look at something else',
 				index:4
-			}
+			},
 		]
 	},
 	{
@@ -130,7 +133,7 @@ var roomArray = [
 			{
 				text:'refuse',
 				index:12
-			}
+			},
 		]
 	},
 	{
@@ -140,7 +143,7 @@ var roomArray = [
 			{
 				text:'Leave and plan your attack',
 				index:15
-			}
+			},
 		]
 	},
 	{
@@ -154,7 +157,7 @@ var roomArray = [
 			{
 				text:'refuse',
 				index:12
-			}
+			},
 		]
 	},
 	{
