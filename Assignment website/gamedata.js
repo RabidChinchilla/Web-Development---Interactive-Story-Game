@@ -500,11 +500,11 @@ var roomArray = [
 		choices:[
 			{
 				text:'try to escape',
-				index:37
+				index:47
 			},
 			{
 				text:'surrender',
-				index:38
+				index:48
 			},
 		]
 	},
