@@ -38,7 +38,7 @@ var roomArray = [
 		choices:[
 			{
 				text:'Wake up',
-				index:3
+				index:4
 			},
 		]
 	},
