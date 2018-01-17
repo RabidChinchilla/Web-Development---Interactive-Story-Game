@@ -6,3 +6,6 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/RabidChinchilla/AINT151---Assignment.git
 git push -u origin master
+
+Ben Gearing
+10583504
